@@ -1,0 +1,76 @@
+/* pages/search/search.wxss */
+.banner{
+  width: 100%;
+  height: 40px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.banner view{
+  display: inline-block;
+}
+.banner_left{
+  width: 25%;
+  padding:10px;
+  height: 40px;
+}
+.banner_left text{
+  font-size: 15px;
+  vertical-align: middle;
+}
+.banner_left image{
+  width: 9px;
+  height: 6px;
+  font-weight: 500;
+  margin-left: 3px;
+  vertical-align: middle;
+}
+.bannre_center{
+  width: 33.3%;
+  text-align: center;
+}
+.now{
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 15px;
+  color: red;
+  border-bottom:1px solid red;
+  padding-bottom: 10px;
+  width: 40px;
+}
+.soon{
+  font-size: 15px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.banner_right{
+  height: 50px;
+  position: absolute;
+  right: 30rpx;
+  border-left: 1px solid #C2C2C2;
+}
+.banner_right image{
+  width: 48rpx;
+  height: 48rpx;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+.classify{
+  width: 100%;
+  height: 160rpx;
+  border-bottom: 1px solid rgb(185, 182, 182);
+}
+.classify_1{
+  display: inline-block;
+  width: 110rpx;
+  height: 160rpx;
+  margin: 20rpx 20rpx;
+  text-align: center;
+}
+.classify_1 image {
+  width:80rpx;
+  height: 80rpx;
+}
+.classify_1 view{
+  font-size: 20rpx;
+  color: gray;
+}

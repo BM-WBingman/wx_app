@@ -1,0 +1,41 @@
+<!--pages/search/search.wxml-->
+ <view class='banner'>
+    <view class='banner_left'>
+        <text>大连</text>
+        <image src='../../movie/img/down.png'></image>
+    </view>
+    <view class='banner_center'>
+      <text class='now'>正在上映</text>
+      <text class='soon'>即将上映</text>
+    </view>
+    <view class='banner_right'>
+      <image src='../../movie/img/01.png'></image>
+    </view>
+  </view>
+<picture imgUrls='{{imgUrls}}'>
+</picture>
+<view class='classify'>
+  <view class='content'>
+    <view class='classify_1'>
+        <image src='../../classify/image/free.png'></image>
+        <view>免费看电影</view>
+    </view>
+    <view class='classify_1'>
+        <image src='../../classify/image/dancing.png'></image>
+        <view>演唱会/话剧</view>
+    </view>
+    <view class='classify_1'>
+        <image src='../../classify/image/luck.png'></image>
+        <view>1分抽奖</view>
+    </view>
+    <view class='classify_1'>
+        <image src='../../classify/image/color.png'></image>
+        <view>抽电影票</view>
+    </view>
+    <view class='classify_1'>
+        <image src='../../classify/image/tv.png'></image>
+        <view>正版周边</view>
+    </view>
+  </view></view>
+<dy_list  movieList="{{movieList}}"></dy_list>
+

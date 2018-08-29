@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "picture": "../../movie/movie",
+    "dy_list":"../../classify/classify"
+  }
+}
